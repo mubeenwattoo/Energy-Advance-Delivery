@@ -1,0 +1,163 @@
+@import "tailwindcss";
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@font-face {
+  font-family: 'Aalto Sans Essential Alt';
+  src: url('/assets/fonts/AaltoSansEssential-Medium.woff') format('woff');
+       font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aalto Sans Essential Alt regular';
+  src: url('/assets/fonts/AaltoSansEssential-Regular.woff') format('woff');
+   
+}
+@font-face {
+  font-family: 'Aalto Sans Essential Alt light';
+  src: url('/assets/fonts/AaltoSansEssential-Light.woff') format('woff');
+       font-weight: 400;
+  font-style: normal;
+}
+
+
+#page-wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+h1, h2{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+@media(max-width:1760px){
+    .hero-left-side{
+        width: 40%;
+    }
+    .house-image{
+        width: 1000px;
+        bottom: 0;
+    }
+    .green-circle{
+        top: 12%;
+        left: 72%;
+    }
+    .schedule-heading{
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .brand-image{
+        width: 120px;
+    }
+    .select-region-box, .start-btn{
+width: 80%;
+    }
+.list-items{
+    gap: 30px;
+}
+.dropdown-menu{
+    width: 60%;
+}
+.info-box{
+    left: 74%;
+}
+}
+@media(max-width:1288px){
+    .info-box{
+    left: 72%;
+}
+
+ .house-image{
+        width: 800px;
+    }
+      .brand-image{
+        width: 90px;
+    }
+     .schedule-heading{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .list-items{
+    gap: 10px;
+}
+.green-circle{
+    width: 429px;
+    height: 429px;
+    top: 25%;
+}
+ .select-region-box, .start-btn{
+width: 85%;
+    }
+    .dropdown-menu{
+    width: 80%;
+}
+}
+@media(max-width:1024px){
+        .info-box{
+    left: 0%;
+    top: -3rem;
+    width: 100%;
+}
+.info-box-2{
+    top: -6.7rem;
+}
+.info-box-3{
+    top: -12rem;
+}
+.info-box-4{
+    top: -15rem;
+}
+.hero-left-side{
+        width: 100%;
+    }
+     .select-region-box, .start-btn, .separator-1, .house-image{
+width: 100%;
+    }
+       .schedule-heading{
+        font-size: 70px;
+        line-height: 70px;
+
+    }
+   
+    .green-circle{
+   
+    display: none;
+    
+    }
+
+
+
+}
+#dropdownButton:hover #loc-default { display: none; }
+#dropdownButton:hover #loc-hover { display: block; }
+#dropdownButton:hover #chev-down-default { display: none; }
+#dropdownButton:hover #chev-down-hover { display: block; }
+
+#dropdownButton.open #loc-default { display: none; }
+#dropdownButton.open #loc-hover { display: block; }
+#dropdownButton.open #chev-down-default { display: none; }
+#dropdownButton.open #chev-down-hover { display: none; }
+#dropdownButton.open #chev-up { display: block; }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}

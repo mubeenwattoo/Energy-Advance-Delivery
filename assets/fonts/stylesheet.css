@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Aalto Sans Essential Alt UlLtIt';
+    src: url('AaltoSansEssentialAlt-UltraLightIt.eot');
+    src: local('Aalto Sans Essential Alt UltraLight It'), local('AaltoSansEssentialAlt-UltraLightIt'),
+        url('AaltoSansEssentialAlt-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-UltraLightIt.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-UltraLightIt.woff') format('woff'),
+        url('AaltoSansEssentialAlt-UltraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt Md It';
+    src: url('AaltoSansEssentialAlt-MediumIt.eot');
+    src: local('Aalto Sans Essential Alt Medium It'), local('AaltoSansEssentialAlt-MediumIt'),
+        url('AaltoSansEssentialAlt-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-MediumIt.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-MediumIt.woff') format('woff'),
+        url('AaltoSansEssentialAlt-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Thin It';
+    src: url('AaltoSansEssential-ThinIt.eot');
+    src: local('Aalto Sans Essential Thin It'), local('AaltoSansEssential-ThinIt'),
+        url('AaltoSansEssential-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-ThinIt.woff2') format('woff2'),
+        url('AaltoSansEssential-ThinIt.woff') format('woff'),
+        url('AaltoSansEssential-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt';
+    src: url('AaltoSansEssentialAlt-Medium.eot');
+    src: local('Aalto Sans Essential Alt Medium'), local('AaltoSansEssentialAlt-Medium'),
+        url('AaltoSansEssentialAlt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-Medium.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-Medium.woff') format('woff'),
+        url('AaltoSansEssentialAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential UltraLt It';
+    src: url('AaltoSansEssential-UltraLightIt.eot');
+    src: local('Aalto Sans Essential UltraLight It'), local('AaltoSansEssential-UltraLightIt'),
+        url('AaltoSansEssential-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-UltraLightIt.woff2') format('woff2'),
+        url('AaltoSansEssential-UltraLightIt.woff') format('woff'),
+        url('AaltoSansEssential-UltraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential';
+    src: url('AaltoSansEssential-Thin.eot');
+    src: local('Aalto Sans Essential Thin'), local('AaltoSansEssential-Thin'),
+        url('AaltoSansEssential-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-Thin.woff2') format('woff2'),
+        url('AaltoSansEssential-Thin.woff') format('woff'),
+        url('AaltoSansEssential-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt Lt It';
+    src: url('AaltoSansEssentialAlt-LightIt.eot');
+    src: local('Aalto Sans Essential Alt Light It'), local('AaltoSansEssentialAlt-LightIt'),
+        url('AaltoSansEssentialAlt-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-LightIt.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-LightIt.woff') format('woff'),
+        url('AaltoSansEssentialAlt-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt Bl It';
+    src: url('AaltoSansEssentialAlt-BlackIt.eot');
+    src: local('Aalto Sans Essential Alt Black It'), local('AaltoSansEssentialAlt-BlackIt'),
+        url('AaltoSansEssentialAlt-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-BlackIt.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-BlackIt.woff') format('woff'),
+        url('AaltoSansEssentialAlt-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt UlLt';
+    src: url('AaltoSansEssentialAlt-UltraLight.eot');
+    src: local('Aalto Sans Essential Alt UltraLight'), local('AaltoSansEssentialAlt-UltraLight'),
+        url('AaltoSansEssentialAlt-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-UltraLight.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-UltraLight.woff') format('woff'),
+        url('AaltoSansEssentialAlt-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt';
+    src: url('AaltoSansEssentialAlt-Regular.eot');
+    src: local('Aalto Sans Essential Alt Regular'), local('AaltoSansEssentialAlt-Regular'),
+        url('AaltoSansEssentialAlt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-Regular.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-Regular.woff') format('woff'),
+        url('AaltoSansEssentialAlt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt';
+    src: url('AaltoSansEssentialAlt-Black.eot');
+    src: local('Aalto Sans Essential Alt Black'), local('AaltoSansEssentialAlt-Black'),
+        url('AaltoSansEssentialAlt-Black.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-Black.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-Black.woff') format('woff'),
+        url('AaltoSansEssentialAlt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential It';
+    src: url('AaltoSansEssential-RegularIt.eot');
+    src: local('Aalto Sans Essential Regular It'), local('AaltoSansEssential-RegularIt'),
+        url('AaltoSansEssential-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-RegularIt.woff2') format('woff2'),
+        url('AaltoSansEssential-RegularIt.woff') format('woff'),
+        url('AaltoSansEssential-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt';
+    src: url('AaltoSansEssentialAlt-Bold.eot');
+    src: local('Aalto Sans Essential Alt Bold'), local('AaltoSansEssentialAlt-Bold'),
+        url('AaltoSansEssentialAlt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-Bold.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-Bold.woff') format('woff'),
+        url('AaltoSansEssentialAlt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential';
+    src: url('AaltoSansEssential-SemiBold.eot');
+    src: local('Aalto Sans Essential SemiBold'), local('AaltoSansEssential-SemiBold'),
+        url('AaltoSansEssential-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-SemiBold.woff2') format('woff2'),
+        url('AaltoSansEssential-SemiBold.woff') format('woff'),
+        url('AaltoSansEssential-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential';
+    src: url('AaltoSansEssential-UltraLight.eot');
+    src: local('Aalto Sans Essential UltraLight'), local('AaltoSansEssential-UltraLight'),
+        url('AaltoSansEssential-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-UltraLight.woff2') format('woff2'),
+        url('AaltoSansEssential-UltraLight.woff') format('woff'),
+        url('AaltoSansEssential-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt ThinIt';
+    src: url('AaltoSansEssentialAlt-ThinIt.eot');
+    src: local('Aalto Sans Essential Alt Thin It'), local('AaltoSansEssentialAlt-ThinIt'),
+        url('AaltoSansEssentialAlt-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-ThinIt.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-ThinIt.woff') format('woff'),
+        url('AaltoSansEssentialAlt-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential';
+    src: url('AaltoSansEssential-Medium.eot');
+    src: local('Aalto Sans Essential Medium'), local('AaltoSansEssential-Medium'),
+        url('AaltoSansEssential-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-Medium.woff2') format('woff2'),
+        url('AaltoSansEssential-Medium.woff') format('woff'),
+        url('AaltoSansEssential-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential';
+    src: url('AaltoSansEssential-Bold.eot');
+    src: local('Aalto Sans Essential Bold'), local('AaltoSansEssential-Bold'),
+        url('AaltoSansEssential-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-Bold.woff2') format('woff2'),
+        url('AaltoSansEssential-Bold.woff') format('woff'),
+        url('AaltoSansEssential-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential SmBold It';
+    src: url('AaltoSansEssential-SemiBoldIt.eot');
+    src: local('Aalto Sans Essential SemiBold It'), local('AaltoSansEssential-SemiBoldIt'),
+        url('AaltoSansEssential-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-SemiBoldIt.woff2') format('woff2'),
+        url('AaltoSansEssential-SemiBoldIt.woff') format('woff'),
+        url('AaltoSansEssential-SemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential';
+    src: url('AaltoSansEssential-Regular.eot');
+    src: local('Aalto Sans Essential Regular'), local('AaltoSansEssential-Regular'),
+        url('AaltoSansEssential-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-Regular.woff2') format('woff2'),
+        url('AaltoSansEssential-Regular.woff') format('woff'),
+        url('AaltoSansEssential-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt';
+    src: url('AaltoSansEssentialAlt-Light.eot');
+    src: local('Aalto Sans Essential Alt Light'), local('AaltoSansEssentialAlt-Light'),
+        url('AaltoSansEssentialAlt-Light.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-Light.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-Light.woff') format('woff'),
+        url('AaltoSansEssentialAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential';
+    src: url('AaltoSansEssential-Light.eot');
+    src: local('Aalto Sans Essential Light'), local('AaltoSansEssential-Light'),
+        url('AaltoSansEssential-Light.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-Light.woff2') format('woff2'),
+        url('AaltoSansEssential-Light.woff') format('woff'),
+        url('AaltoSansEssential-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt It';
+    src: url('AaltoSansEssentialAlt-RegularIt.eot');
+    src: local('Aalto Sans Essential Alt Regular It'), local('AaltoSansEssentialAlt-RegularIt'),
+        url('AaltoSansEssentialAlt-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-RegularIt.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-RegularIt.woff') format('woff'),
+        url('AaltoSansEssentialAlt-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Light It';
+    src: url('AaltoSansEssential-LightIt.eot');
+    src: local('Aalto Sans Essential Light It'), local('AaltoSansEssential-LightIt'),
+        url('AaltoSansEssential-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-LightIt.woff2') format('woff2'),
+        url('AaltoSansEssential-LightIt.woff') format('woff'),
+        url('AaltoSansEssential-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential';
+    src: url('AaltoSansEssential-Black.eot');
+    src: local('Aalto Sans Essential Black'), local('AaltoSansEssential-Black'),
+        url('AaltoSansEssential-Black.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-Black.woff2') format('woff2'),
+        url('AaltoSansEssential-Black.woff') format('woff'),
+        url('AaltoSansEssential-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt Bd It';
+    src: url('AaltoSansEssentialAlt-BoldIt.eot');
+    src: local('Aalto Sans Essential Alt Bold It'), local('AaltoSansEssentialAlt-BoldIt'),
+        url('AaltoSansEssentialAlt-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-BoldIt.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-BoldIt.woff') format('woff'),
+        url('AaltoSansEssentialAlt-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Alt';
+    src: url('AaltoSansEssentialAlt-Thin.eot');
+    src: local('Aalto Sans Essential Alt Thin'), local('AaltoSansEssentialAlt-Thin'),
+        url('AaltoSansEssentialAlt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssentialAlt-Thin.woff2') format('woff2'),
+        url('AaltoSansEssentialAlt-Thin.woff') format('woff'),
+        url('AaltoSansEssentialAlt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Bold It';
+    src: url('AaltoSansEssential-BoldIt.eot');
+    src: local('Aalto Sans Essential Bold It'), local('AaltoSansEssential-BoldIt'),
+        url('AaltoSansEssential-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-BoldIt.woff2') format('woff2'),
+        url('AaltoSansEssential-BoldIt.woff') format('woff'),
+        url('AaltoSansEssential-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Medium It';
+    src: url('AaltoSansEssential-MediumIt.eot');
+    src: local('Aalto Sans Essential Medium It'), local('AaltoSansEssential-MediumIt'),
+        url('AaltoSansEssential-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-MediumIt.woff2') format('woff2'),
+        url('AaltoSansEssential-MediumIt.woff') format('woff'),
+        url('AaltoSansEssential-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aalto Sans Essential Black It';
+    src: url('AaltoSansEssential-BlackIt.eot');
+    src: local('Aalto Sans Essential Black It'), local('AaltoSansEssential-BlackIt'),
+        url('AaltoSansEssential-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('AaltoSansEssential-BlackIt.woff2') format('woff2'),
+        url('AaltoSansEssential-BlackIt.woff') format('woff'),
+        url('AaltoSansEssential-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
