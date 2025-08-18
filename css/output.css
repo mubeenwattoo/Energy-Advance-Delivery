@@ -412,10 +412,6 @@
   .border-collapse {
     border-collapse: collapse;
   }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -440,9 +436,6 @@
   }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-\[2fr_1fr_1fr_1fr_1fr\] {
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -692,9 +685,6 @@
   .font-\[Aalto_Sans_Essential_Alt_regular\] {
     font-family: Aalto Sans Essential Alt regular;
   }
-  .font-\[Aalto_Sans_Essential_regular\] {
-    font-family: Aalto Sans Essential regular;
-  }
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
@@ -837,10 +827,6 @@
   .shadow-sm {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition-all {
     transition-property: all;
@@ -1274,17 +1260,17 @@ img {
 }
 @font-face {
   font-family: 'Aalto Sans Essential Alt';
-  src: url('/assets/fonts/AaltoSansEssential-Medium.woff') format('woff');
+  src: url('assets/fonts/AaltoSansEssential-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Aalto Sans Essential Alt regular';
-  src: url('/assets/fonts/AaltoSansEssential-Regular.woff') format('woff');
+  src: url('assets/fonts/AaltoSansEssential-Regular.woff') format('woff');
 }
 @font-face {
   font-family: 'Aalto Sans Essential Alt light';
-  src: url('/assets/fonts/AaltoSansEssential-Light.woff') format('woff');
+  src: url('assets/fonts/AaltoSansEssential-Light.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -1555,11 +1541,6 @@ h1, h2 {
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -1600,7 +1581,6 @@ h1, h2 {
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-ease: initial;
     }
