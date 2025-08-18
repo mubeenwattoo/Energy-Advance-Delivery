@@ -714,9 +714,6 @@
   .text-\[24px\] {
     font-size: 24px;
   }
-  .text-\[26px\] {
-    font-size: 26px;
-  }
   .text-\[28px\] {
     font-size: 28px;
   }
@@ -871,13 +868,6 @@
       }
     }
   }
-  .hover\:bg-\[\#00A884\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #00A884;
-      }
-    }
-  }
   .hover\:bg-\[\#009272\] {
     &:hover {
       @media (hover: hover) {
@@ -979,6 +969,11 @@
   .lg\:mt-10 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:mt-20 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 20);
     }
   }
   .lg\:mb-6 {
@@ -1191,6 +1186,21 @@
   .xl\:mt-16 {
     @media (width >= 80rem) {
       margin-top: calc(var(--spacing) * 16);
+    }
+  }
+  .xl\:mt-32 {
+    @media (width >= 80rem) {
+      margin-top: calc(var(--spacing) * 32);
+    }
+  }
+  .xl\:mt-48 {
+    @media (width >= 80rem) {
+      margin-top: calc(var(--spacing) * 48);
+    }
+  }
+  .xl\:mt-60 {
+    @media (width >= 80rem) {
+      margin-top: calc(var(--spacing) * 60);
     }
   }
   .xl\:h-\[51px\] {

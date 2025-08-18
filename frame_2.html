@@ -83,7 +83,8 @@
   </div>
 
   <div class="bg-[#F5F5F5] rounded-bl-lg rounded-br-lg">
-    <div class="grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 px-6 py-3">
+    <div class="row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 px-6 py-3"
+    data-single="./frame_1.6.html" data-double="./frame_1.5.html">
       <!-- Col 1: Title + description -->
       <div class="py-3">
         <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]">Stand-Alone Dwelling Full BASIX Assessment</h3>
@@ -99,27 +100,27 @@
       <div></div>
 
       <!-- Col 3: Single Storey price -->
-      <a href="#" class="flex gap-4 items-center ml-4 ">
-        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div class="flex gap-4 items-center ml-4 ">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
 
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$349.24</span>
-      </a>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$349.24</span>
+      </div>
 
       <!-- Col 4: Double Storey price -->
-        <a href="./frame_1.4.html" class="flex gap-4 items-center ml-20 ">
+        <div  class="flex gap-4 items-center ml-20 ">
 
 
-     <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+     <svg width="25" height="25" viewBox="0 0 25 25" class="tick-icon-unchecked cursor-pointer" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
 
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$469.24</span>
-      </a>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$469.24</span>
+      </div>
       <!-- Col 5: Next button -->
 <div class="flex justify-end">
- <div class="flex items-center cursor-pointer justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+ <div class="next-btn flex items-center cursor-not-allowed justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
 <span> Next </span>
 <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
@@ -128,7 +129,9 @@
       </div>
       </div>
     </div>
- <div class="grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 bg-[#F8FAFA]">
+ <div class="row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 bg-[#F8FAFA]"
+ data-single="./frame_2.6.html" data-double="./frame_2.5.html"
+ >
       <!-- Col 1: Title + description -->
       <div class="py-3">
         <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]">Thermal Comfort Only Assessment (no BASIX)</h3>
@@ -143,26 +146,26 @@
 
       <!-- Col 3: Single Storey price -->
       <div class="flex gap-4 items-center ml-4 ">
-        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
 
 
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$573.24</span>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$205.48</span>
       </div>
 
       <!-- Col 4: Double Storey price -->
         <div class="flex gap-4 items-center ml-20 ">
   
 
-    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$567.24</span>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$318.48</span>
       </div>
       <!-- Col 5: Next button -->
 <div class="flex justify-end">
- <div class="flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+ <div class="next-btn flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
 <span> Next </span>
 <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
@@ -172,7 +175,10 @@
       </div>
     </div>
  
- <div class="grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 ">
+ <div class="row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3
+ "
+ data-single="./frame_3.6.html" data-double="./frame_3.5.html"
+ >
       <!-- Col 1: Title + description -->
       <div class="py-3">
         <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]">Ancillary Dwelling (i.e Granny Flats) Full BASIX Assessment</h3>
@@ -189,26 +195,26 @@
 
       <!-- Col 3: Single Storey price -->
       <div class="flex gap-4 items-center ml-4 ">
-        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
 
 
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$299.24</span>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$299.24</span>
       </div>
 
       <!-- Col 4: Double Storey price -->
         <div class="flex gap-4 items-center ml-20 ">
   
 
-    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$419.54</span>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$419.24</span>
       </div>
       <!-- Col 5: Next button -->
 <div class="flex justify-end">
- <div class="flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+ <div class="next-btn flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
 <span> Next </span>
 <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
@@ -219,7 +225,11 @@
     </div>
     
 
-    <div class="grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 bg-[#F8FAFA]">
+    <div class="row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 bg-[#F8FAFA]
+    "
+    data-single="./frame_4.6.html" data-double="./frame_4.5.html"
+    
+    >
       <!-- Col 1: Title + description -->
       <div class="py-3">
         <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]">Additions/Alterations BASIX Assessment</h3>
@@ -234,26 +244,26 @@
 
       <!-- Col 3: Single Storey price -->
       <div class="flex gap-4 items-center ml-4 ">
-        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
 
 
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$159.24</span>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$159.13</span>
       </div>
 
       <!-- Col 4: Double Storey price -->
         <div class="flex gap-4 items-center ml-20 ">
   
 
-    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$219.24</span>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$219.13</span>
       </div>
       <!-- Col 5: Next button -->
 <div class="flex justify-end">
- <div class="flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+ <div class="next-btn flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
 <span> Next </span>
 <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
@@ -262,7 +272,9 @@
       </div>
       </div>
     </div>
-     <div class="relative grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 ">
+     <div class="relative row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 "
+     data-single="./frame_5.6.html" data-double="./frame_5.5.html"
+     >
       <!-- Col 1: Title + description -->
       <div class="py-3">
         <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]">Reassessment</h3>
@@ -291,26 +303,26 @@
 
       <!-- Col 3: Single Storey price -->
       <div class="flex gap-4 items-center ml-4 ">
-        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
 
 
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$130.24</span>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$130.48</span>
       </div>
 
       <!-- Col 4: Double Storey price -->
         <div class="flex gap-4 items-center ml-20 ">
   
 
-    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
 </svg>
-        <span class="font-[600] xl:text-[34px] text-[28px] text-[#013356]">$120.24</span>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$130.48</span>
       </div>
       <!-- Col 5: Next button -->
 <div class="flex justify-end">
- <div class="flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+ <div class="next-btn flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
 <span> Next </span>
 <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
@@ -357,6 +369,98 @@
     });
   }
 </script>
+
+
+
+
+
+
+
+
+ <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.querySelectorAll(".row-wrapper");
+
+  let activeRow = null; 
+
+  rows.forEach(row => {
+    const icons = row.querySelectorAll(".tick-icon-unchecked");
+    const prices = row.querySelectorAll(".price");
+    const nextBtn = row.querySelector(".next-btn");
+
+    const singleTarget = row.dataset.single; 
+    const doubleTarget = row.dataset.double;
+    let selectedTarget = null;
+
+    icons.forEach((icon, index) => {
+      icon.addEventListener("click", () => {
+        if (activeRow && activeRow !== row) {
+          resetRow(activeRow);
+        }
+        activeRow = row;
+
+        icons.forEach(ic => {
+          ic.innerHTML = uncheckedSVG();
+        });
+        prices.forEach(price => {
+          price.classList.remove("text-[#00A884]");
+          price.classList.add("text-[#013356]");
+        });
+
+        icon.innerHTML = checkedSVG();
+        prices[index].classList.remove("text-[#013356]");
+        prices[index].classList.add("text-[#00A884]");
+        row.classList.add("border", "border-[#00A884]");
+        nextBtn.classList.remove("bg-[#D9D9D9]", "cursor-not-allowed");
+        nextBtn.classList.add("bg-[#00A884]", "cursor-pointer");
+        selectedTarget = index === 0 ? singleTarget : doubleTarget;
+      });
+    });
+    nextBtn.addEventListener("click", () => {
+      if (selectedTarget) {
+        window.location.href = selectedTarget;
+      }
+    });
+  });
+  function resetRow(row) {
+    const icons = row.querySelectorAll(".tick-icon-unchecked");
+    const prices = row.querySelectorAll(".price");
+    const nextBtn = row.querySelector(".next-btn");
+
+    icons.forEach(ic => {
+      ic.innerHTML = uncheckedSVG();
+    });
+    prices.forEach(price => {
+      price.classList.remove("text-[#00A884]");
+      price.classList.add("text-[#013356]");
+    });
+    row.classList.remove("border", "border-[#00A884]");
+    nextBtn.classList.remove("bg-[#00A884]", "cursor-pointer");
+    nextBtn.classList.add("bg-[#D9D9D9]", "cursor-not-allowed");
+  }
+
+  function uncheckedSVG() {
+    return `
+      <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" 
+          d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" 
+          fill="#D9D9D9"/>
+      </svg>`;
+  }
+
+  function checkedSVG() {
+    return `
+      <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" 
+          d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" 
+          fill="#00A884"/>
+      </svg>`;
+  }
+});
+  </script>
+
+
+
 
 </body>
 </html>
