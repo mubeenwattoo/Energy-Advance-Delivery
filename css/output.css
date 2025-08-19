@@ -283,6 +283,9 @@
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -297,6 +300,9 @@
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
   }
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
@@ -351,6 +357,9 @@
   }
   .h-\[48px\] {
     height: 48px;
+  }
+  .h-\[80px\] {
+    height: 80px;
   }
   .h-\[83px\] {
     height: 83px;
@@ -653,6 +662,9 @@
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
+  .pt-8 {
+    padding-top: calc(var(--spacing) * 8);
+  }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
@@ -732,6 +744,15 @@
   .text-\[40px\] {
     font-size: 40px;
   }
+  .text-\[129px\] {
+    font-size: 129px;
+  }
+  .text-\[130px\] {
+    font-size: 130px;
+  }
+  .text-\[131px\] {
+    font-size: 131px;
+  }
   .text-\[132px\] {
     font-size: 132px;
   }
@@ -770,6 +791,18 @@
   .leading-\[50px\] {
     --tw-leading: 50px;
     line-height: 50px;
+  }
+  .leading-\[130px\] {
+    --tw-leading: 130px;
+    line-height: 130px;
+  }
+  .leading-\[132px\] {
+    --tw-leading: 132px;
+    line-height: 132px;
+  }
+  .leading-\[135px\] {
+    --tw-leading: 135px;
+    line-height: 135px;
   }
   .leading-\[140px\] {
     --tw-leading: 140px;
@@ -1065,6 +1098,15 @@
       }
     }
   }
+  .lg\:space-x-6 {
+    @media (width >= 64rem) {
+      :where(& > :not(:last-child)) {
+        --tw-space-x-reverse: 0;
+        margin-inline-start: calc(calc(var(--spacing) * 6) * var(--tw-space-x-reverse));
+        margin-inline-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-x-reverse)));
+      }
+    }
+  }
   .lg\:overflow-x-hidden {
     @media (width >= 64rem) {
       overflow-x: hidden;
@@ -1098,6 +1140,11 @@
   .lg\:py-8 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 8);
+    }
+  }
+  .lg\:py-10 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 10);
     }
   }
   .lg\:py-12 {
@@ -1186,16 +1233,6 @@
   .xl\:mt-16 {
     @media (width >= 80rem) {
       margin-top: calc(var(--spacing) * 16);
-    }
-  }
-  .xl\:mt-32 {
-    @media (width >= 80rem) {
-      margin-top: calc(var(--spacing) * 32);
-    }
-  }
-  .xl\:mt-48 {
-    @media (width >= 80rem) {
-      margin-top: calc(var(--spacing) * 48);
     }
   }
   .xl\:mt-60 {
