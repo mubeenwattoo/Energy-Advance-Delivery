@@ -1,0 +1,471 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="../css/output.css" rel="stylesheet">
+</head>
+<body>
+<div id="page-wrapper" class="font-[Aalto_Sans_Essential_Alt_regular]">
+  
+<div class="w-full overflow-x-auto lg:overflow-x-hidden scrollbar-hide">
+  <div class="min-w-[1024px]">
+    
+  <div class="top-bar">
+  <div class="flex items-center justify-between gap-8 px-2 py-2 ">
+    <!-- Logo -->
+    <img src="../assets/images/logo.svg" alt="logo" class="xl:w-auto w-[165px]">
+
+    <!-- Heading -->
+    <h2 class="xl:text-[55.2px] text-[38px] text-[#00A884] font-bold">
+      Victoria Assessments
+    </h2>
+
+    <!-- Buttons -->
+    <div class="flex items-center gap-6">
+      <!-- Back Button -->
+      <a href="../frame_opening.html"
+        class="flex items-center px-4 gap-4 text-white xl:text-[24px] text-[22px] font-[Aalto_Sans_Essential_Alt] rounded-full bg-[#00A884] hover:bg-[#009272] duration-300 cursor-pointer xl:h-[51px] h-[48px] xl:w-[141px] w-[130px]"
+      >
+        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.5002 0C27.1651 0 35 7.83492 35 17.4998C35 27.1648 27.1651 35 17.5002 35C7.83524 35 0 27.1648 0 17.4998C0.0108948 7.83941 7.83941 0.0108947 17.5002 0ZM17.5002 33.2498C26.1987 33.2498 33.2501 26.1983 33.2501 17.4998C33.2501 8.80135 26.1987 1.74989 17.5002 1.74989C8.80167 1.74989 1.75021 8.80135 1.75021 17.4998C1.76014 26.1942 8.80584 33.2399 17.5002 33.2498Z" fill="white"/>
+          <path d="M19.4699 10.8035C19.8247 10.4893 20.3636 10.526 20.6737 10.8851C20.9836 11.2445 20.9473 11.7903 20.5928 12.1045L14.5031 17.5015L20.5931 22.8988C20.948 23.213 20.9839 23.7587 20.674 24.1178C20.3639 24.4773 19.825 24.514 19.4702 24.1998L12.6468 18.152C12.4616 17.9881 12.3554 17.7508 12.3554 17.5015C12.3554 17.2521 12.4616 17.0152 12.6468 16.851L19.4699 10.8035Z" fill="white"/>
+        </svg>
+        <span> Back </span>
+      </a>
+
+      <!-- Next Button -->
+      <a href="#"
+        class="flex items-center cursor-not-allowed justify-end px-4 gap-4 text-white xl:text-[24px] text-[22px] font-[Aalto_Sans_Essential_Alt] rounded-full bg-[#D9D9D9] xl:h-[51px] h-[48px] xl:w-[141px] w-[130px]"
+      >
+        <span> Next </span>
+        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.4998 0C7.83492 0 0 7.83492 0 17.4998C0 27.1648 7.83492 35 17.4998 35C27.1648 35 35 27.1648 35 17.4998C34.9891 7.83941 27.1606 0.0108947 17.4998 0ZM17.4998 33.2498C8.80135 33.2498 1.74989 26.1983 1.74989 17.4998C1.74989 8.80135 8.80135 1.74989 17.4998 1.74989C26.1983 1.74989 33.2498 8.80135 33.2498 17.4998C33.2399 26.1942 26.1942 33.2399 17.4998 33.2498Z" fill="white"/>
+          <path d="M15.5301 10.8035C15.1753 10.4893 14.6364 10.526 14.3263 10.8851C14.0164 11.2445 14.0527 11.7903 14.4072 12.1045L20.4969 17.5015L14.4069 22.8988C14.052 23.213 14.0161 23.7587 14.326 24.1178C14.6361 24.4773 15.175 24.514 15.5298 24.1998L22.3532 18.152C22.5384 17.9881 22.6446 17.7508 22.6446 17.5015C22.6446 17.2521 22.5384 17.0152 22.3532 16.851L15.5301 10.8035Z" fill="white"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="my-table w-full mx-auto lg:px-4 px-2 pb-3">
+  
+  <!-- Header -->
+  <div class="grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center bg-[#D9E6E8] rounded-tl-lg rounded-tr-lg py-4 xl:px-12 px-6">
+    <div class="flex items-center gap-6">
+      <svg width="25" height="33" viewBox="0 0 25 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.5637 33.0008C19.0597 33.0008 20.3684 31.9933 20.7523 30.5462L22.4198 24.2588C22.8558 22.6152 21.9731 20.9092 20.3805 20.3169L16.1722 18.7516C15.3967 18.4632 14.8823 17.7226 14.8823 16.8945V12.5707C14.8823 11.1693 13.7472 10.0332 12.3468 10.0332C10.9465 10.0332 9.81127 11.1693 9.81127 12.5707V23.4982C9.81127 23.6627 9.59749 23.7261 9.50809 23.5882L8.70999 22.3593C7.64669 20.722 5.40342 20.361 3.88076 21.5821L3.61365 21.7964C3.4294 21.9441 3.37513 22.2015 3.48405 22.4112L8.0611 31.2222C8.62887 32.3151 9.75733 33.0008 10.9882 33.0008H17.5637Z" fill="#51626E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.4985 7.30683C9.62729 7.30683 7.29974 9.63624 7.29974 12.5097C7.29974 13.0449 7.38007 13.5591 7.52849 14.042C7.72937 14.6956 7.36281 15.3883 6.70976 15.5894C6.0567 15.7904 5.36444 15.4236 5.16356 14.77C4.94345 14.0539 4.82544 13.2945 4.82544 12.5097C4.82544 8.26864 8.26079 4.83057 12.4985 4.83057C16.7363 4.83057 20.1716 8.26864 20.1716 12.5097C20.1716 13.2945 20.0535 14.0539 19.8334 14.77C19.6325 15.4236 18.9402 15.7904 18.2872 15.5894C17.6341 15.3883 17.2676 14.6956 17.4685 14.042C17.617 13.5591 17.6973 13.0449 17.6973 12.5097C17.6973 9.63624 15.3696 7.30683 12.4985 7.30683Z" fill="#51626E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 2.47724C6.96295 2.47724 2.4743 6.96947 2.4743 12.5109C2.4743 13.9865 2.79178 15.3846 3.36095 16.6432C3.64269 17.266 3.36646 17.9997 2.74398 18.2816C2.12151 18.5636 1.38851 18.2871 1.10679 17.6642C0.39541 16.0911 0 14.3455 0 12.5109C0 5.60186 5.59643 0.000976562 12.5 0.000976562C19.4035 0.000976562 25 5.60186 25 12.5109C25 14.3455 24.6046 16.0911 23.8932 17.6642C23.6114 18.2871 22.8785 18.5636 22.256 18.2816C21.6335 17.9997 21.3573 17.266 21.6391 16.6432C22.2082 15.3846 22.5257 13.9865 22.5257 12.5109C22.5257 6.96947 18.037 2.47724 12.5 2.47724Z" fill="#51626E"/>
+</svg>
+
+      <span class="xl:text-[24px] text-[18px] leading-[24px] text-[#51626E] font-[400]">ASSESSMENT TYPE AND INCLUSIONS</span>
+    </div>
+
+    <!-- Col 2: empty gap -->
+    <div></div>
+
+    <!-- Col 3: Single Storey -->
+    <div class="text-center xl:text-[24px] text-[18px] leading-[24px] text-[#51626E] font-[400] -ml-8 ">
+      Single Storey <span class="text-sm text-[#00A884] font-[500]">(ex. GST)</span>
+    </div>
+
+    <!-- Col 4: Double Storey -->
+    <div class="text-center xl:text-[24px] text-[18px] leading-[24px] text-[#51626E] font-[400] -mr-12">
+      Double Storey <span class="text-sm text-[#00A884] font-[500]">(inc. GST)</span>
+    </div>
+
+    <!-- Col 5: empty for button -->
+    <div></div>
+  </div>
+
+  <div class="bg-[#F5F5F5] rounded-bl-lg rounded-br-lg">
+    <div class="row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 px-6 py-3"
+    data-single="./frame_2.1.6.html" data-double="./frame_2.1.5.html">
+      <!-- Col 1: Title + description -->
+      <div class="py-3">
+        <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]"> NatHERS Assessment </h3>
+        <p class="xl:text-[22px] text-[18px] leading-[28px] font-[400] xl:leading-[34px] text-[#51626E] mt-3">
+        NatHERS Assessment and Report <br>
+          Whole-of-Home Assessment<br>
+          NatHERS Certificate 
+        </p>
+      </div>
+
+      <!-- Col 2: empty -->
+      <div></div>
+
+      <!-- Col 3: Single Storey price -->
+      <div class="flex gap-4 items-center ml-4 ">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$264.75</span>
+      </div>
+
+      <!-- Col 4: Double Storey price -->
+        <div  class="flex gap-4 items-center ml-20 ">
+
+
+     <svg width="25" height="25" viewBox="0 0 25 25" class="tick-icon-unchecked cursor-pointer" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$350.25</span>
+      </div>
+      <!-- Col 5: Next button -->
+<div class="flex justify-end">
+ <div class="next-btn flex items-center cursor-not-allowed justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+<span> Next </span>
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
+<path d="M12.4258 9.53222C12.142 9.28088 11.7109 9.31024 11.4628 9.59752C11.2149 9.88506 11.2439 10.3217 11.5275 10.573L16.3993 14.8906L11.5273 19.2085C11.2434 19.4598 11.2146 19.8964 11.4625 20.1837C11.7107 20.4713 12.1417 20.5006 12.4256 20.2493L17.8843 15.411C18.0325 15.2799 18.1175 15.0901 18.1175 14.8906C18.1175 14.6912 18.0325 14.5016 17.8843 14.3702L12.4258 9.53222Z" fill="white"/>
+</svg>
+      </div>
+      </div>
+    </div>
+ <div class="row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 bg-[#F8FAFA]"
+ data-single="./frame_2.2.6.html" data-double="./frame_2.2.5.html"
+ >
+      <!-- Col 1: Title + description -->
+      <div class="py-3">
+        <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]"> NatHERS Multi-Orientation Simulations </h3>
+        <p class="xl:text-[22px] text-[18px] leading-[28px] font-[400] xl:leading-[34px] text-[#51626E] mt-3">
+          This includes up to 6 different scenarios, covering all 8 orientations<br>
+to ensure compliance regardless of the dwelling's position on the block.
+        </p>
+      </div>
+
+      <!-- Col 2: empty -->
+      <div></div>
+
+      <!-- Col 3: Single Storey price -->
+      <div class="flex gap-4 items-center ml-4 ">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+
+
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$350.00</span>
+      </div>
+
+      <!-- Col 4: Double Storey price -->
+        <div class="flex gap-4 items-center ml-20 ">
+  
+
+    <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$449.00</span>
+      </div>
+      <!-- Col 5: Next button -->
+<div class="flex justify-end">
+ <div class="next-btn flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+<span> Next </span>
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
+<path d="M12.4258 9.53222C12.142 9.28088 11.7109 9.31024 11.4628 9.59752C11.2149 9.88506 11.2439 10.3217 11.5275 10.573L16.3993 14.8906L11.5273 19.2085C11.2434 19.4598 11.2146 19.8964 11.4625 20.1837C11.7107 20.4713 12.1417 20.5006 12.4256 20.2493L17.8843 15.411C18.0325 15.2799 18.1175 15.0901 18.1175 14.8906C18.1175 14.6912 18.0325 14.5016 17.8843 14.3702L12.4258 9.53222Z" fill="white"/>
+</svg>
+      </div>
+      </div>
+    </div>
+ 
+ <div class="row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3
+ "
+ data-single="./frame_2.3.6.html" data-double="./frame_2.3.5.html"
+ >
+      <!-- Col 1: Title + description -->
+      <div class="py-3">
+        <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]"> Ancillary Dwelling (i.e Granny Flats)  </h3>
+        <p class="xl:text-[22px] text-[18px] leading-[28px] font-[400] xl:leading-[34px] text-[#51626E] mt-3">
+          NatHERS Assessment and Report<br>
+          Whole-of-Home Assessment<br>
+          NatHERS Certificate
+        </p>
+      </div>
+
+      <!-- Col 2: empty -->
+      <div></div>
+
+      <!-- Col 3: Single Storey price -->
+      <div class="flex gap-4 items-center ml-4 ">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+
+
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$264.75</span>
+      </div>
+
+      <!-- Col 4: Double Storey price -->
+        <div class="flex gap-4 items-center ml-20 ">
+  
+
+    <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$350.25</span>
+      </div>
+      <!-- Col 5: Next button -->
+<div class="flex justify-end">
+ <div class="next-btn flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+<span> Next </span>
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
+<path d="M12.4258 9.53222C12.142 9.28088 11.7109 9.31024 11.4628 9.59752C11.2149 9.88506 11.2439 10.3217 11.5275 10.573L16.3993 14.8906L11.5273 19.2085C11.2434 19.4598 11.2146 19.8964 11.4625 20.1837C11.7107 20.4713 12.1417 20.5006 12.4256 20.2493L17.8843 15.411C18.0325 15.2799 18.1175 15.0901 18.1175 14.8906C18.1175 14.6912 18.0325 14.5016 17.8843 14.3702L12.4258 9.53222Z" fill="white"/>
+</svg>
+      </div>
+      </div>
+    </div>
+    
+
+
+ <div class="relative row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 bg-[#F8FAFA] "
+ data-single="./frame_2.4.6.html" data-double="./frame_2.4.5.html"
+     
+     >
+      <!-- Col 1: Title + description -->
+      <div class="py-3">
+        <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]">Reassessment</h3>
+        <p class="xl:text-[22px] text-[18px] leading-[28px] font-[400] xl:leading-[34px] text-[#51626E] mt-3">
+          NatHERS Reassessment  and Report<br>
+          Whole-of-Home Reassessment <br>
+          Updated NatHERS Universal Certificate
+        </p>
+      </div>
+
+      <!-- Col 2: empty -->
+      <div class="ml-12 relative">
+<svg width="25" height="25" viewBox="0 0 25 25" class="info-icon cursor-pointer" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5 0C5.6 0 0 5.6 0 12.5C0 19.4 5.6 25 12.5 25C19.4 25 25 19.4 25 12.5C25 5.6 19.4 0 12.5 0ZM12.5 20C11.5833 20 10.8333 19.25 10.8333 18.3333C10.8333 17.4167 11.5833 16.6667 12.5 16.6667C13.4167 16.6667 14.1667 17.4167 14.1667 18.3333C14.1667 19.25 13.4167 20 12.5 20ZM14.4083 7.075L13.85 13.7583C13.7917 14.4583 13.2083 15 12.5 15C11.7917 15 11.2083 14.4583 11.15 13.7583L10.5917 7.075C10.5 5.95833 11.375 5 12.5 5C13.5667 5 14.4167 5.86667 14.4167 6.91667C14.4167 6.96667 14.4167 7.025 14.4083 7.075Z" fill="#00A884"/>
+</svg>
+
+<div id="infoBox"  class="opacity-0 scale-95 pointer-events-none transition-all duration-400 ease-out  absolute top-[-15.5rem] rounded-lg w-[633px] p-6 left-[-4.8rem] bg-[#00A884] text-[24px] text-white font-[400]">
+  
+This type of assessment applies when you're modifying or extending an existing home in NSW. It ensures the proposed works (like new rooms or renovations) comply with BASIX requirements for energy and water efficiency, without needing full thermal modelling.
+
+<div class="absolute left-18 -bottom-4 w-0 h-0 border-l-16 border-r-16 border-t-16 border-l-transparent border-r-transparent border-t-[#00A884]"></div>
+
+  </div>
+
+
+      </div>
+      
+
+      <!-- Col 3: Single Storey price -->
+      <div class="flex gap-4 items-center ml-4 ">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+
+
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$179.18</span>
+      </div>
+
+      <!-- Col 4: Double Storey price -->
+        <div class="flex gap-4 items-center ml-20 ">
+  
+
+    <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$179.18</span>
+
+      </div>
+      <!-- Col 5: Next button -->
+<div class="flex justify-end">
+ <div class="next-btn flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+<span> Next </span>
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
+<path d="M12.4258 9.53222C12.142 9.28088 11.7109 9.31024 11.4628 9.59752C11.2149 9.88506 11.2439 10.3217 11.5275 10.573L16.3993 14.8906L11.5273 19.2085C11.2434 19.4598 11.2146 19.8964 11.4625 20.1837C11.7107 20.4713 12.1417 20.5006 12.4256 20.2493L17.8843 15.411C18.0325 15.2799 18.1175 15.0901 18.1175 14.8906C18.1175 14.6912 18.0325 14.5016 17.8843 14.3702L12.4258 9.53222Z" fill="white"/>
+</svg>
+      </div>
+      </div>
+    </div>
+
+    <div class="row-wrapper grid grid-cols-[2fr_1fr_1fr_1fr_1fr] items-center rounded-xs xl:px-12 lg:px-8 px-4 py-3 
+    "
+ data-single="./frame_2.5.6.html" data-double="./frame_2.5.5.html"
+    
+    >
+      <!-- Col 1: Title + description -->
+      <div class="py-3">
+        <h3 class="xl:text-[24px] text-[20px] xl:leading-[34px] leading-[28px] font-[600] text-[#013356]">Additions/Alterations</h3>
+        <p class="xl:text-[22px] text-[18px] leading-[28px] font-[400] xl:leading-[34px] text-[#51626E] mt-3">
+          NCC2022 Verification Method Assessment and Report<br>
+          Whole-of-Home Assessment
+        </p>
+      </div>
+
+      <!-- Col 2: empty -->
+      <div></div>
+
+      <!-- Col 3: Single Storey price -->
+      <div class="flex gap-4 items-center ml-4 ">
+        <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+
+
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$260.00</span>
+      </div>
+
+      <!-- Col 4: Double Storey price -->
+        <div class="flex gap-4 items-center ml-20 ">
+  
+
+    <svg width="25" height="25" class="tick-icon-unchecked cursor-pointer" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" fill="#D9D9D9"/>
+</svg>
+        <span class="price font-[600] xl:text-[34px] text-[28px] text-[#013356]">$359.00</span>
+      </div>
+      <!-- Col 5: Next button -->
+<div class="flex justify-end">
+ <div class="next-btn flex items-center cursor-not-allowed  justify-end pl-2 pr-2 gap-4 text-white xl:text-[26px] text-[22px] font-[Aalto_Sans_Essential_Alt_Regular] font-[400] rounded-full bg-[#D9D9D9] h-[48px] xl:w-[125px] w-[115px]">
+<span> Next </span>
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.9999 0.890625C6.26794 0.890625 0 7.15856 0 14.8905C0 22.6224 6.26794 28.8906 13.9999 28.8906C21.7318 28.8906 28 22.6224 28 14.8905C27.9913 7.16215 21.7285 0.899341 13.9999 0.890625ZM13.9999 27.4905C7.04108 27.4905 1.39991 21.8493 1.39991 14.8905C1.39991 7.9317 7.04108 2.29054 13.9999 2.29054C20.9587 2.29054 26.5998 7.9317 26.5998 14.8905C26.5919 21.846 20.9553 27.4825 13.9999 27.4905Z" fill="white"/>
+<path d="M12.4258 9.53222C12.142 9.28088 11.7109 9.31024 11.4628 9.59752C11.2149 9.88506 11.2439 10.3217 11.5275 10.573L16.3993 14.8906L11.5273 19.2085C11.2434 19.4598 11.2146 19.8964 11.4625 20.1837C11.7107 20.4713 12.1417 20.5006 12.4256 20.2493L17.8843 15.411C18.0325 15.2799 18.1175 15.0901 18.1175 14.8906C18.1175 14.6912 18.0325 14.5016 17.8843 14.3702L12.4258 9.53222Z" fill="white"/>
+</svg>
+      </div>
+      </div>
+    </div>
+    
+
+  </div>
+
+</div>
+
+</div>
+    </div>
+
+
+
+</div>
+<script>
+  const infoIcon = document.querySelector('.info-icon');
+  const infoBox = document.getElementById('infoBox');
+
+  // Desktop: Show on hover
+  if (window.innerWidth > 1024) {
+    infoIcon.addEventListener('mouseenter', () => {
+      infoBox.classList.remove('opacity-0', 'scale-95', 'pointer-events-none');
+      infoBox.classList.add('opacity-100', 'scale-100');
+    });
+    infoIcon.addEventListener('mouseleave', () => {
+      infoBox.classList.add('opacity-0', 'scale-95', 'pointer-events-none');
+      infoBox.classList.remove('opacity-100', 'scale-100');
+    });
+  }
+
+  // Mobile: Toggle on click
+  else {
+    infoIcon.addEventListener('click', () => {
+      infoBox.classList.toggle('opacity-0');
+      infoBox.classList.toggle('scale-95');
+      infoBox.classList.toggle('pointer-events-none');
+      infoBox.classList.toggle('opacity-100');
+      infoBox.classList.toggle('scale-100');
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+ <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.querySelectorAll(".row-wrapper");
+
+  let activeRow = null; 
+
+  rows.forEach(row => {
+    const icons = row.querySelectorAll(".tick-icon-unchecked");
+    const prices = row.querySelectorAll(".price");
+    const nextBtn = row.querySelector(".next-btn");
+
+    const singleTarget = row.dataset.single; 
+    const doubleTarget = row.dataset.double;
+    let selectedTarget = null;
+
+    icons.forEach((icon, index) => {
+      icon.addEventListener("click", () => {
+        if (activeRow && activeRow !== row) {
+          resetRow(activeRow);
+        }
+        activeRow = row;
+
+        icons.forEach(ic => {
+          ic.innerHTML = uncheckedSVG();
+        });
+        prices.forEach(price => {
+          price.classList.remove("text-[#00A884]");
+          price.classList.add("text-[#013356]");
+        });
+
+        icon.innerHTML = checkedSVG();
+        prices[index].classList.remove("text-[#013356]");
+        prices[index].classList.add("text-[#00A884]");
+        row.classList.add("border", "border-[#00A884]");
+        nextBtn.classList.remove("bg-[#D9D9D9]", "cursor-not-allowed");
+        nextBtn.classList.add("bg-[#00A884]", "cursor-pointer");
+        selectedTarget = index === 0 ? singleTarget : doubleTarget;
+      });
+    });
+    nextBtn.addEventListener("click", () => {
+      if (selectedTarget) {
+        window.location.href = selectedTarget;
+      }
+    });
+  });
+  function resetRow(row) {
+    const icons = row.querySelectorAll(".tick-icon-unchecked");
+    const prices = row.querySelectorAll(".price");
+    const nextBtn = row.querySelector(".next-btn");
+
+    icons.forEach(ic => {
+      ic.innerHTML = uncheckedSVG();
+    });
+    prices.forEach(price => {
+      price.classList.remove("text-[#00A884]");
+      price.classList.add("text-[#013356]");
+    });
+    row.classList.remove("border", "border-[#00A884]");
+    nextBtn.classList.remove("bg-[#00A884]", "cursor-pointer");
+    nextBtn.classList.add("bg-[#D9D9D9]", "cursor-not-allowed");
+  }
+
+  function uncheckedSVG() {
+    return `
+      <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" 
+          d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" 
+          fill="#D9D9D9"/>
+      </svg>`;
+  }
+
+  function checkedSVG() {
+    return `
+      <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" 
+          d="M12.5 0C19.4023 0 25 5.59765 25 12.5C25 19.4023 19.4023 25 12.5 25C5.59765 25 0 19.4023 0 12.5C0 5.59765 5.59765 0 12.5 0ZM9.90422 16.5601L6.84391 13.4973C6.32254 12.9756 6.32243 12.1249 6.84391 11.6033C7.3655 11.0818 8.21999 11.0851 8.73778 11.6033L10.8953 13.7625L16.2624 8.39535C16.784 7.87377 17.6348 7.87377 18.1563 8.39535C18.6779 8.91683 18.6771 9.76837 18.1563 10.2892L11.8407 16.6048C11.3198 17.1257 10.4683 17.1264 9.94682 16.6048C9.93216 16.5902 9.91803 16.5753 9.90422 16.5601Z" 
+          fill="#00A884"/>
+      </svg>`;
+  }
+});
+  </script>
+
+
+
+
+</body>
+</html>

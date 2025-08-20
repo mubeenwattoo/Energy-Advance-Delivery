@@ -69,6 +69,9 @@ h1, h2{
     .brand-image{
         width: 120px;
     }
+    .info-box-new{
+        top:-12rem ;
+    }
     .select-region-box, .start-btn{
 width: 80%;
     }
@@ -86,6 +89,9 @@ width: 80%;
     .info-box{
     left: 72%;
 }
+  .info-box-new{
+        top:-10rem ;
+    }
 
  .house-image{
         width: 800px;
